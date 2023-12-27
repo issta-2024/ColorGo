@@ -1,0 +1,23 @@
+------------------------------------------
+START TIME:Sat 11 Feb 55623 07:02:51 AM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.7Cgmv2AAZ6/cur/0.wav
+This is SymCC running with the QSYM backend
+LAME 3.99.5 64bits (http://lame.sf.net)
+Using polyphase lowpass filter, transition band: 16538 Hz - 17071 Hz
+Encoding /tmp/tmp.7Cgmv2AAZ6/cur/0.wav to /tmp/tmp.7Cgmv2AAZ6/cur/0.mp3
+Encoding as 44.1 kHz j-stereo MPEG-1 Layer III (11x) 128 kbps qval=7
+    Frame          |  CPU time/estim | REAL time/estim | play/CPU |    ETA 
+     0/       ( 0%)|    0:00/     :  |    0:00/     :  |         x|     :  
+00:00--------------------------------------------------------------------------[K
+   kbps      %     %[K
+    0.0           [K[A[A[A     0/3      ( 0%)|    0:00/    0:00|    0:00/    0:00|   0.0000x|    0:00 
+00:00--------------------------------------------------------------------------[K
+   kbps      %     %[K
+    0.0           [K
+run time is 1780 ms
+The solving time sum is:  us. The solving times is: 0.
+The run time sum is: 1780 ms. The run times is: 1.
+The average of run time is: 1780 ms.
+END TIME:Sat 11 Feb 55623 07:37:29 AM CST
+The total run time is: 2078 ms

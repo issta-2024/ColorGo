@@ -1,0 +1,26 @@
+------------------------------------------
+START TIME:Fri 22 Jul 55622 12:48:10 PM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.kYzZ9v3Wtc/cur/24.jpg
+This is SymCC running with the QSYM backend
+Argument '-f' not understood
+Use jhead -h for list of arguments
+run time is 9 ms
+Generation 1...Dept 0...
+Running on /tmp/tmp.kYzZ9v3Wtc/cur/empty.xmp
+This is SymCC running with the QSYM backend
+Argument '-f' not understood
+Use jhead -h for list of arguments
+run time is 9 ms
+Generation 2...Dept 0...
+Running on /tmp/tmp.kYzZ9v3Wtc/cur/goldenears_gray.jpg
+This is SymCC running with the QSYM backend
+Argument '-f' not understood
+Use jhead -h for list of arguments
+run time is 9 ms
+Generation 3...Dept 0...
+Running on /tmp/tmp.kYzZ9v3Wtc/cur/goldenears.jpg
+This is SymCC running with the QSYM backend
+Argument '-f' not understood
+Use jhead -h for list of arguments
+run time is 9 ms

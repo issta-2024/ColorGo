@@ -1,0 +1,7 @@
+main:c_main
+c_main:lame_main
+lame_main:lame_encoder
+lame_encoder:lame_encoder_loop
+lame_encoder_loop:get_audio
+get_audio:get_audio_common
+get_audio_common:read_samples_pcm

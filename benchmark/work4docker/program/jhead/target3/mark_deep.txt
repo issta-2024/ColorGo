@@ -1,0 +1,884 @@
+------------------------------------------
+START TIME:Mon 26 Dec 55622 09:40:04 PM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.r8QyUDNXAf/cur/24.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2462 }
+[STAT] SMT: { "solving_time_once": 362 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 1...
+Running on /tmp/tmp.r8QyUDNXAf/topush/2leC4g39
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2580 }
+[STAT] SMT: { "solving_time_once": 337 }
+[STAT] SMT: { "solving_time": 337, "total_time": 3302 }
+[STAT] SMT: { "solving_time_once": 340 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 14 ms
+Generation 0...Dept 2...
+Running on /tmp/tmp.r8QyUDNXAf/topush/4ZNuQWcq
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2456 }
+[STAT] SMT: { "solving_time_once": 342 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 3...
+Running on /tmp/tmp.r8QyUDNXAf/topush/s2zrgYb2
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2262 }
+[STAT] SMT: { "solving_time_once": 320 }
+[STAT] SMT: { "solving_time": 320, "total_time": 3010 }
+[STAT] SMT: { "solving_time_once": 294 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 4...
+Running on /tmp/tmp.r8QyUDNXAf/topush/tul9sL9L
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2427 }
+[STAT] SMT: { "solving_time_once": 353 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 5...
+Running on /tmp/tmp.r8QyUDNXAf/topush/cV5dQ94L
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2419 }
+[STAT] SMT: { "solving_time_once": 316 }
+[STAT] SMT: { "solving_time": 316, "total_time": 3085 }
+[STAT] SMT: { "solving_time_once": 257 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 6...
+Running on /tmp/tmp.r8QyUDNXAf/topush/fwF78A5v
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2254 }
+[STAT] SMT: { "solving_time_once": 365 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 7...
+Running on /tmp/tmp.r8QyUDNXAf/topush/gZatGlU7
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2385 }
+[STAT] SMT: { "solving_time_once": 313 }
+[STAT] SMT: { "solving_time": 313, "total_time": 3042 }
+[STAT] SMT: { "solving_time_once": 273 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 8...
+Running on /tmp/tmp.r8QyUDNXAf/topush/TNQRFVCT
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2305 }
+[STAT] SMT: { "solving_time_once": 370 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 9...
+Running on /tmp/tmp.r8QyUDNXAf/topush/W6B0y1iY
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2605 }
+[STAT] SMT: { "solving_time_once": 302 }
+[STAT] SMT: { "solving_time": 302, "total_time": 3248 }
+[STAT] SMT: { "solving_time_once": 269 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 10...
+Running on /tmp/tmp.r8QyUDNXAf/topush/oe8gIuIB
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2140 }
+[STAT] SMT: { "solving_time_once": 323 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 11...
+Running on /tmp/tmp.r8QyUDNXAf/topush/90pJMtop
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2309 }
+[STAT] SMT: { "solving_time_once": 309 }
+[STAT] SMT: { "solving_time": 309, "total_time": 3030 }
+[STAT] SMT: { "solving_time_once": 293 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 12...
+Running on /tmp/tmp.r8QyUDNXAf/topush/O36zHFyU
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2621 }
+[STAT] SMT: { "solving_time_once": 342 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 13...
+Running on /tmp/tmp.r8QyUDNXAf/topush/204X3g71
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2490 }
+[STAT] SMT: { "solving_time_once": 345 }
+[STAT] SMT: { "solving_time": 345, "total_time": 3160 }
+[STAT] SMT: { "solving_time_once": 285 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 14...
+Running on /tmp/tmp.r8QyUDNXAf/topush/qjR6eUkW
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2388 }
+[STAT] SMT: { "solving_time_once": 352 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 15...
+Running on /tmp/tmp.r8QyUDNXAf/topush/V0iufdSt
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2428 }
+[STAT] SMT: { "solving_time_once": 339 }
+[STAT] SMT: { "solving_time": 339, "total_time": 3157 }
+[STAT] SMT: { "solving_time_once": 290 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 16...
+Running on /tmp/tmp.r8QyUDNXAf/topush/ZibZy18e
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2448 }
+[STAT] SMT: { "solving_time_once": 321 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 17...
+Running on /tmp/tmp.r8QyUDNXAf/topush/sTVoUflt
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2424 }
+[STAT] SMT: { "solving_time_once": 334 }
+[STAT] SMT: { "solving_time": 334, "total_time": 3082 }
+[STAT] SMT: { "solving_time_once": 269 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 18...
+Running on /tmp/tmp.r8QyUDNXAf/topush/rEENUu2B
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2362 }
+[STAT] SMT: { "solving_time_once": 364 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 19...
+Running on /tmp/tmp.r8QyUDNXAf/topush/h0FHi6jv
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2350 }
+[STAT] SMT: { "solving_time_once": 301 }
+[STAT] SMT: { "solving_time": 301, "total_time": 2976 }
+[STAT] SMT: { "solving_time_once": 267 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 20...
+Running on /tmp/tmp.r8QyUDNXAf/topush/F1G82FUc
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2402 }
+[STAT] SMT: { "solving_time_once": 338 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 21...
+Running on /tmp/tmp.r8QyUDNXAf/topush/UBSZmxZD
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2737 }
+[STAT] SMT: { "solving_time_once": 344 }
+[STAT] SMT: { "solving_time": 344, "total_time": 3487 }
+[STAT] SMT: { "solving_time_once": 308 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 14 ms
+Generation 0...Dept 22...
+Running on /tmp/tmp.r8QyUDNXAf/topush/JYVEYvlw
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2425 }
+[STAT] SMT: { "solving_time_once": 372 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 23...
+Running on /tmp/tmp.r8QyUDNXAf/topush/IQuMAHg4
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2633 }
+[STAT] SMT: { "solving_time_once": 338 }
+[STAT] SMT: { "solving_time": 338, "total_time": 3386 }
+[STAT] SMT: { "solving_time_once": 285 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 24...
+Running on /tmp/tmp.r8QyUDNXAf/topush/yf3NMqF2
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2349 }
+[STAT] SMT: { "solving_time_once": 390 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 25...
+Running on /tmp/tmp.r8QyUDNXAf/topush/p2xKVI3R
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2299 }
+[STAT] SMT: { "solving_time_once": 348 }
+[STAT] SMT: { "solving_time": 348, "total_time": 3065 }
+[STAT] SMT: { "solving_time_once": 303 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 26...
+Running on /tmp/tmp.r8QyUDNXAf/topush/bJfzdQmt
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2303 }
+[STAT] SMT: { "solving_time_once": 354 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 27...
+Running on /tmp/tmp.r8QyUDNXAf/topush/n7JdsU1n
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2484 }
+[STAT] SMT: { "solving_time_once": 326 }
+[STAT] SMT: { "solving_time": 326, "total_time": 3155 }
+[STAT] SMT: { "solving_time_once": 255 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 28...
+Running on /tmp/tmp.r8QyUDNXAf/topush/HULbzEiM
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2479 }
+[STAT] SMT: { "solving_time_once": 341 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 29...
+Running on /tmp/tmp.r8QyUDNXAf/topush/JMmggtF0
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2589 }
+[STAT] SMT: { "solving_time_once": 355 }
+[STAT] SMT: { "solving_time": 355, "total_time": 3366 }
+[STAT] SMT: { "solving_time_once": 302 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 14 ms
+Generation 0...Dept 30...
+Running on /tmp/tmp.r8QyUDNXAf/topush/4JHMS71E
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2351 }
+[STAT] SMT: { "solving_time_once": 413 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 31...
+Running on /tmp/tmp.r8QyUDNXAf/topush/A6brbGJf
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2466 }
+[STAT] SMT: { "solving_time_once": 339 }
+[STAT] SMT: { "solving_time": 339, "total_time": 3150 }
+[STAT] SMT: { "solving_time_once": 254 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 32...
+Running on /tmp/tmp.r8QyUDNXAf/topush/xBgVjIkD
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2322 }
+[STAT] SMT: { "solving_time_once": 387 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 33...
+Running on /tmp/tmp.r8QyUDNXAf/topush/ocAFDBLY
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2669 }
+[STAT] SMT: { "solving_time_once": 302 }
+[STAT] SMT: { "solving_time": 302, "total_time": 3358 }
+[STAT] SMT: { "solving_time_once": 316 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 14 ms
+Generation 0...Dept 34...
+Running on /tmp/tmp.r8QyUDNXAf/topush/0sJ6L0rU
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2335 }
+[STAT] SMT: { "solving_time_once": 357 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 35...
+Running on /tmp/tmp.r8QyUDNXAf/topush/togO5HFk
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2617 }
+[STAT] SMT: { "solving_time_once": 299 }
+[STAT] SMT: { "solving_time": 299, "total_time": 3289 }
+[STAT] SMT: { "solving_time_once": 322 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 14 ms
+Generation 0...Dept 36...
+Running on /tmp/tmp.r8QyUDNXAf/topush/w5DbHpBp
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2628 }
+[STAT] SMT: { "solving_time_once": 471 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 37...
+Running on /tmp/tmp.r8QyUDNXAf/topush/5XID9Gc7
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2505 }
+[STAT] SMT: { "solving_time_once": 374 }
+[STAT] SMT: { "solving_time": 374, "total_time": 3296 }
+[STAT] SMT: { "solving_time_once": 294 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 38...
+Running on /tmp/tmp.r8QyUDNXAf/topush/wsWSD5o0
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2342 }
+[STAT] SMT: { "solving_time_once": 394 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 39...
+Running on /tmp/tmp.r8QyUDNXAf/topush/P0zQ1HZS
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2545 }
+[STAT] SMT: { "solving_time_once": 400 }
+[STAT] SMT: { "solving_time": 400, "total_time": 3291 }
+[STAT] SMT: { "solving_time_once": 264 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 14 ms
+Generation 0...Dept 40...
+Running on /tmp/tmp.r8QyUDNXAf/topush/beAQ8q4c
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2572 }
+[STAT] SMT: { "solving_time_once": 344 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 41...
+Running on /tmp/tmp.r8QyUDNXAf/topush/l0bAd2xk
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2698 }
+[STAT] SMT: { "solving_time_once": 339 }
+[STAT] SMT: { "solving_time": 339, "total_time": 3428 }
+[STAT] SMT: { "solving_time_once": 285 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 42...
+Running on /tmp/tmp.r8QyUDNXAf/topush/9J0oj163
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2684 }
+[STAT] SMT: { "solving_time_once": 363 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 43...
+Running on /tmp/tmp.r8QyUDNXAf/topush/tVGc7HIb
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2740 }
+[STAT] SMT: { "solving_time_once": 323 }
+[STAT] SMT: { "solving_time": 323, "total_time": 3455 }
+[STAT] SMT: { "solving_time_once": 245 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 44...
+Running on /tmp/tmp.r8QyUDNXAf/topush/cNJjuEnq
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2596 }
+[STAT] SMT: { "solving_time_once": 383 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 45...
+Running on /tmp/tmp.r8QyUDNXAf/topush/DeftqjTn
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2732 }
+[STAT] SMT: { "solving_time_once": 300 }
+[STAT] SMT: { "solving_time": 300, "total_time": 3375 }
+[STAT] SMT: { "solving_time_once": 294 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 14 ms
+Generation 0...Dept 46...
+Running on /tmp/tmp.r8QyUDNXAf/topush/aOLt5c7m
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2508 }
+[STAT] SMT: { "solving_time_once": 370 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 47...
+Running on /tmp/tmp.r8QyUDNXAf/topush/4yi2jMfY
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2628 }
+[STAT] SMT: { "solving_time_once": 350 }
+[STAT] SMT: { "solving_time": 350, "total_time": 3328 }
+[STAT] SMT: { "solving_time_once": 279 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 48...
+Running on /tmp/tmp.r8QyUDNXAf/topush/L2rkq72s
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2373 }
+[STAT] SMT: { "solving_time_once": 402 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 49...
+Running on /tmp/tmp.r8QyUDNXAf/topush/u5EjobNn
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2789 }
+[STAT] SMT: { "solving_time_once": 347 }
+[STAT] SMT: { "solving_time": 347, "total_time": 3475 }
+[STAT] SMT: { "solving_time_once": 294 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 50...
+Running on /tmp/tmp.r8QyUDNXAf/topush/npxz7B5x
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2365 }
+[STAT] SMT: { "solving_time_once": 392 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 51...
+Running on /tmp/tmp.r8QyUDNXAf/topush/dIT1YrpB
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2393 }
+[STAT] SMT: { "solving_time_once": 421 }
+[STAT] SMT: { "solving_time": 421, "total_time": 3235 }
+[STAT] SMT: { "solving_time_once": 307 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 52...
+Running on /tmp/tmp.r8QyUDNXAf/topush/TCnNh2qq
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2569 }
+[STAT] SMT: { "solving_time_once": 370 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 53...
+Running on /tmp/tmp.r8QyUDNXAf/topush/UAKhbdc6
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2453 }
+[STAT] SMT: { "solving_time_once": 304 }
+[STAT] SMT: { "solving_time": 304, "total_time": 3177 }
+[STAT] SMT: { "solving_time_once": 301 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 54...
+Running on /tmp/tmp.r8QyUDNXAf/topush/OIg1WzOe
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2415 }
+[STAT] SMT: { "solving_time_once": 339 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 55...
+Running on /tmp/tmp.r8QyUDNXAf/topush/NRRIcDAb
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2634 }
+[STAT] SMT: { "solving_time_once": 305 }
+[STAT] SMT: { "solving_time": 305, "total_time": 3291 }
+[STAT] SMT: { "solving_time_once": 250 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 56...
+Running on /tmp/tmp.r8QyUDNXAf/topush/4Llnu7O8
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2375 }
+[STAT] SMT: { "solving_time_once": 358 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 57...
+Running on /tmp/tmp.r8QyUDNXAf/topush/LapB7VYJ
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2344 }
+[STAT] SMT: { "solving_time_once": 356 }
+[STAT] SMT: { "solving_time": 356, "total_time": 3111 }
+[STAT] SMT: { "solving_time_once": 302 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 58...
+Running on /tmp/tmp.r8QyUDNXAf/topush/SuFQBR6J
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2447 }
+[STAT] SMT: { "solving_time_once": 370 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 59...
+Running on /tmp/tmp.r8QyUDNXAf/topush/l0MTqgs7
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2554 }
+[STAT] SMT: { "solving_time_once": 319 }
+[STAT] SMT: { "solving_time": 319, "total_time": 3223 }
+[STAT] SMT: { "solving_time_once": 262 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 60...
+Running on /tmp/tmp.r8QyUDNXAf/topush/dwvJtoGa
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2158 }
+[STAT] SMT: { "solving_time_once": 354 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 61...
+Running on /tmp/tmp.r8QyUDNXAf/topush/hWIQG229
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2548 }
+[STAT] SMT: { "solving_time_once": 310 }
+[STAT] SMT: { "solving_time": 310, "total_time": 3210 }
+[STAT] SMT: { "solving_time_once": 275 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 62...
+Running on /tmp/tmp.r8QyUDNXAf/topush/6vYjt6QL
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2221 }
+[STAT] SMT: { "solving_time_once": 372 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 63...
+Running on /tmp/tmp.r8QyUDNXAf/topush/oi6VQqtz
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2524 }
+[STAT] SMT: { "solving_time_once": 335 }
+[STAT] SMT: { "solving_time": 335, "total_time": 3204 }
+[STAT] SMT: { "solving_time_once": 261 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 64...
+Running on /tmp/tmp.r8QyUDNXAf/topush/5hxIgGc4
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2226 }
+[STAT] SMT: { "solving_time_once": 347 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 65...
+Running on /tmp/tmp.r8QyUDNXAf/topush/vca2YaEz
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2601 }
+[STAT] SMT: { "solving_time_once": 332 }
+[STAT] SMT: { "solving_time": 332, "total_time": 3276 }
+[STAT] SMT: { "solving_time_once": 257 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 66...
+Running on /tmp/tmp.r8QyUDNXAf/topush/2Io0rqov
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2256 }
+[STAT] SMT: { "solving_time_once": 350 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 67...
+Running on /tmp/tmp.r8QyUDNXAf/topush/Hooz8wNJ
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2554 }
+[STAT] SMT: { "solving_time_once": 323 }
+[STAT] SMT: { "solving_time": 323, "total_time": 3225 }
+[STAT] SMT: { "solving_time_once": 254 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 68...
+Running on /tmp/tmp.r8QyUDNXAf/topush/ivPBMLo2
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2331 }
+[STAT] SMT: { "solving_time_once": 340 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 69...
+Running on /tmp/tmp.r8QyUDNXAf/topush/QTHQhNRa
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2571 }
+[STAT] SMT: { "solving_time_once": 316 }
+[STAT] SMT: { "solving_time": 316, "total_time": 3228 }
+[STAT] SMT: { "solving_time_once": 261 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 70...
+Running on /tmp/tmp.r8QyUDNXAf/topush/hJZYmdtk
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2254 }
+[STAT] SMT: { "solving_time_once": 341 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 71...
+Running on /tmp/tmp.r8QyUDNXAf/topush/9BhGq5Yj
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2575 }
+[STAT] SMT: { "solving_time_once": 321 }
+[STAT] SMT: { "solving_time": 321, "total_time": 3243 }
+[STAT] SMT: { "solving_time_once": 262 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 72...
+Running on /tmp/tmp.r8QyUDNXAf/topush/eQHYnMR3
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2402 }
+[STAT] SMT: { "solving_time_once": 405 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 73...
+Running on /tmp/tmp.r8QyUDNXAf/topush/MeyUomFL
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2403 }
+[STAT] SMT: { "solving_time_once": 316 }
+[STAT] SMT: { "solving_time": 316, "total_time": 3066 }
+[STAT] SMT: { "solving_time_once": 258 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 74...
+Running on /tmp/tmp.r8QyUDNXAf/topush/GmzJfBxP
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2421 }
+[STAT] SMT: { "solving_time_once": 374 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 75...
+Running on /tmp/tmp.r8QyUDNXAf/topush/W0sVBnOM
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2332 }
+[STAT] SMT: { "solving_time_once": 363 }
+[STAT] SMT: { "solving_time": 363, "total_time": 3104 }
+[STAT] SMT: { "solving_time_once": 302 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 76...
+Running on /tmp/tmp.r8QyUDNXAf/topush/m527fhPA
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2366 }
+[STAT] SMT: { "solving_time_once": 348 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 77...
+Running on /tmp/tmp.r8QyUDNXAf/topush/GMVkTO5b
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2571 }
+[STAT] SMT: { "solving_time_once": 318 }
+[STAT] SMT: { "solving_time": 318, "total_time": 3239 }
+[STAT] SMT: { "solving_time_once": 255 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 78...
+Running on /tmp/tmp.r8QyUDNXAf/topush/LqMz3aWi
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2131 }
+[STAT] SMT: { "solving_time_once": 361 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 79...
+Running on /tmp/tmp.r8QyUDNXAf/topush/eCTQjobp
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2490 }
+[STAT] SMT: { "solving_time_once": 315 }
+[STAT] SMT: { "solving_time": 315, "total_time": 3166 }
+[STAT] SMT: { "solving_time_once": 265 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 80...
+Running on /tmp/tmp.r8QyUDNXAf/topush/6yyC5LNq
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2438 }
+[STAT] SMT: { "solving_time_once": 354 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 81...
+Running on /tmp/tmp.r8QyUDNXAf/topush/8ikkjoir
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2368 }
+[STAT] SMT: { "solving_time_once": 303 }
+[STAT] SMT: { "solving_time": 303, "total_time": 3082 }
+[STAT] SMT: { "solving_time_once": 298 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 82...
+Running on /tmp/tmp.r8QyUDNXAf/topush/IiOEKyR7
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2254 }
+[STAT] SMT: { "solving_time_once": 369 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 83...
+Running on /tmp/tmp.r8QyUDNXAf/topush/Ce5o7Wzl
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2561 }
+[STAT] SMT: { "solving_time_once": 338 }
+[STAT] SMT: { "solving_time": 338, "total_time": 3243 }
+[STAT] SMT: { "solving_time_once": 252 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 84...
+Running on /tmp/tmp.r8QyUDNXAf/topush/OgZBnTWO
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2221 }
+[STAT] SMT: { "solving_time_once": 353 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 85...
+Running on /tmp/tmp.r8QyUDNXAf/topush/1bv5CAr1
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2520 }
+[STAT] SMT: { "solving_time_once": 310 }
+[STAT] SMT: { "solving_time": 310, "total_time": 3182 }
+[STAT] SMT: { "solving_time_once": 258 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 12 ms
+Generation 0...Dept 86...
+Running on /tmp/tmp.r8QyUDNXAf/topush/9MlzwQG8
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2189 }
+[STAT] SMT: { "solving_time_once": 350 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000
+Constraint: Equal(0xDB, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 11 ms
+Generation 0...Dept 87...
+Running on /tmp/tmp.r8QyUDNXAf/topush/GxarkDWX
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 2519 }
+[STAT] SMT: { "solving_time_once": 341 }
+[STAT] SMT: { "solving_time": 341, "total_time": 3209 }
+[STAT] SMT: { "solving_time_once": 266 }
+[INFO] New testcase: /tmp/tmp.r8QyUDNXAf/symcc_out/000000-optimistic
+Constraint: Equal(0xC4, ZExt(bits=32, Read(index=3)))
+terminate at 20661560 because of taken 0 != want 1
+run time is 13 ms
+Generation 0...Dept 88...
+Running on /tmp/tmp.r8QyUDNXAf/topush/RdQ6Gn5Z

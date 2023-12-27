@@ -1,0 +1,4 @@
+main:ProcessFile
+ProcessFile:ReadJpegFile
+ReadJpegFile:ReadJpegSections
+ReadJpegSections:process_DQT

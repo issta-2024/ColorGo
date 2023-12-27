@@ -1,0 +1,31 @@
+------------------------------------------
+START TIME:Wed 31 Mar 55677 12:03:10 AM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.2KFpHPNpXL/cur/0.wav
+This is SymCC running with the QSYM backend
+LAME 3.99.5 64bits (http://lame.sf.net)
+Using polyphase lowpass filter, transition band: 16538 Hz - 17071 Hz
+Encoding /tmp/tmp.2KFpHPNpXL/cur/0.wav to /tmp/tmp.2KFpHPNpXL/cur/0.mp3
+Encoding as 44.1 kHz j-stereo MPEG-1 Layer III (11x) 128 kbps qval=7
+[STAT] SMT: { "solving_time": 0, "total_time": 89380 }
+[STAT] SMT: { "solving_time_once": 1191 }
+[INFO] New testcase: /tmp/tmp.2KFpHPNpXL/symcc_out/000000
+Constraint: LAnd(LAnd(LAnd(LNot(Equal(0x3, Or(LShr(0xFFFFFFF8 + (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=23))) | 0x0, ZExt(bits=32, Read(index=22)))), 0x3), Shl(0xFFFFFFF8 + (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=23))) | 0x0, ZExt(bits=32, Read(index=22)))), 0x1D)))), LNot(Equal(0x2, Or(LShr(0xFFFFFFF8 + (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=23))) | 0x0, ZExt(bits=32, Read(index=22)))), 0x3), Shl(0xFFFFFFF8 + (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=23))) | 0x0, ZExt(bits=32, Read(index=22)))), 0x1D))))), LNot(Equal(0x1, Or(LShr(0xFFFFFFF8 + (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=23))) | 0x0, ZExt(bits=32, Read(index=22)))), 0x3), Shl(0xFFFFFFF8 + (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=23))) | 0x0, ZExt(bits=32, Read(index=22)))), 0x1D))))), LNot(Equal(0x0, Or(LShr(0xFFFFFFF8 + (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=23))) | 0x0, ZExt(bits=32, Read(index=22)))), 0x3), Shl(0xFFFFFFF8 + (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=23))) | 0x0, ZExt(bits=32, Read(index=22)))), 0x1D)))))
+terminate at 30845800 because of taken 0 != want 1
+run time is 102 ms
+Generation 0...Dept 1...
+Running on /tmp/tmp.2KFpHPNpXL/topush/DHz0cj5W
+This is SymCC running with the QSYM backend
+Warning: input file opened multiple times; this is not yet supported
+LAME 3.99.5 64bits (http://lame.sf.net)
+Using polyphase lowpass filter, transition band: 16538 Hz - 17071 Hz
+Encoding /tmp/tmp.2KFpHPNpXL/topush/DHz0cj5W
+      to /tmp/tmp.2KFpHPNpXL/topush/DHz0cj5W.mp3
+Encoding as 44.1 kHz j-stereo MPEG-1 Layer III (11x) 128 kbps qval=7
+run time is 97 ms
+The solving time sum is: 1191 us. The solving times is: 1.
+The average of solving time is: 1191 us.
+The run time sum is: 199 ms. The run times is: 2.
+The average of run time is: 99 ms.
+END TIME:Wed 31 Mar 55677 12:13:04 AM CST
+The total run time is: 594 ms

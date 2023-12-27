@@ -1,0 +1,52 @@
+FROM zjuchenyuan/aflgo
+
+RUN git clone https://github.com/UNIFUZZ/unibench /unibench &&\
+    cd /unibench && \
+    mkdir mp3gain-1.5.2 && cd mp3gain-1.5.2 && mv ../mp3gain-1.5.2.zip ./ && unzip -q mp3gain-1.5.2.zip && rm mp3gain-1.5.2.zip && cd .. &&\
+    ls *.zip|xargs -i unzip -q '{}' &&\
+    ls *.tar.gz|xargs -i tar xf '{}' &&\
+    rm -r .git/ *.tar.gz *.zip &&\
+    mv SQLite-8a8ffc86 SQLite-3.8.9 && mv binutils_5279478 binutils-5279478 && mv libtiff-Release-v3-9-7 libtiff-3.9.7 &&\
+    ls -alh
+RUN mkdir -p /d/p/aflgo
+
+ENV CC=/aflgo/afl-clang-fast CXX=/aflgo/afl-clang-fast++
+
+ADD targets4aflgo /targets
+
+ENV SUBJECT=/unibench/lame-3.99.5 \
+    BIN=lame BINPATH=frontend/lame
+ENV TMP_DIR=$SUBJECT/obj-aflgo/temp \
+    ADDITIONAL="-targets=$SUBJECT/obj-aflgo/temp/BBtargets.txt -outdir=$SUBJECT/obj-aflgo/temp -flto -fuse-ld=gold -Wl,-plugin-opt=save-temps" \
+    ADDITIONAL2="-distance=$SUBJECT/obj-aflgo/temp/distance.cfg.txt"
+
+RUN mkdir -p $TMP_DIR && cp /targets/lame.txt $TMP_DIR/BBtargets.txt &&\
+    cd $SUBJECT &&\
+    cd frontend &&\
+    sed -i '1285s/^/assert(0);/' get_audio.c &&\
+    cd $SUBJECT &&\
+    CFLAGS="$ADDITIONAL" CXXFLAGS="$ADDITIONAL" ./configure --disable-shared &&\
+    CFLAGS="$ADDITIONAL" CXXFLAGS="$ADDITIONAL" make -j &&\
+    cat $TMP_DIR/BBnames.txt | rev | cut -d: -f2- | rev | sort | uniq > $TMP_DIR/BBnames2.txt && mv $TMP_DIR/BBnames2.txt $TMP_DIR/BBnames.txt && cat $TMP_DIR/BBcalls.txt | sort | uniq > $TMP_DIR/BBcalls2.txt && mv $TMP_DIR/BBcalls2.txt $TMP_DIR/BBcalls.txt && $AFLGO/scripts/genDistance.sh $SUBJECT $TMP_DIR $BIN &&\
+    make clean
+RUN cd $SUBJECT &&\
+    CFLAGS="$ADDITIONAL2" CXXFLAGS="$ADDITIONAL2" ./configure --disable-shared &&\
+    CFLAGS="$ADDITIONAL2" CXXFLAGS="$ADDITIONAL2" make -j &&\
+    cp $BINPATH /d/p/aflgo &&\
+    cd $SUBJECT &&\
+    cd frontend &&\
+    sed -i '1285s/assert(0);//' get_audio.c &&\
+    cd $SUBJECT
+
+
+# 设置AFLGo的一些环境变量
+ENV AFLGO=/aflgo
+ADD ./seeds $TMP_DIR/seeds
+
+
+# RUN cd /sys/devices/system/cpu &&\
+#     echo performance | tee cpu*/cpufreq/scaling_governor
+
+# # 使用AFLGo进行模糊测试
+# RUN cd $SUBJECT &&\
+#     screen $AFLGO/afl-fuzz -i $TMP_DIR/seeds/general_evaluation/lame3.99.5 -o $TMP_DIR/out -- /d/p/aflgo/lame @@

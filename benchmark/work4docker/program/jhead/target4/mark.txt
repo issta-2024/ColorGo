@@ -1,0 +1,90 @@
+------------------------------------------
+START TIME:2023年 08月 26日 星期六 21:56:34 CST
+Generation 0...
+Generation 0 start time:2023年 08月 26日 星期六 21:56:34 CST
+Running on /tmp/tmp.Y9NU8l4gX9/cur/115.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/161.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/163.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/234.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/278.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/281.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/58.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/72.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/78.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/86.png
+This is SymCC running with the QSYM backend
+unknown image format
+cannot load image
+Running on /tmp/tmp.Y9NU8l4gX9/cur/96.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/example.mif
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 29167 }
+[STAT] SMT: { "solving_time_once": 406 }
+[INFO] New testcase: /tmp/tmp.Y9NU8l4gX9/symcc_out/000000
+Constraint: LNot(Equal(0xA, Read(index=4)))
+terminate at 140709564042430 because of taken 1 != want 0
+Running on /tmp/tmp.Y9NU8l4gX9/cur/example.mif0
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 32922 }
+[STAT] SMT: { "solving_time_once": 424 }
+[INFO] New testcase: /tmp/tmp.Y9NU8l4gX9/symcc_out/000000
+Constraint: LNot(Equal(0xA, Read(index=c9)))
+terminate at 140253181299902 because of taken 1 != want 0
+Running on /tmp/tmp.Y9NU8l4gX9/cur/feep2.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/feep.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/goldenears.bmp
+This is SymCC running with the QSYM backend
+THE BMP FORMAT IS NOT FULLY SUPPORTED!
+THAT IS, THE JASPER SOFTWARE CANNOT DECODE ALL TYPES OF BMP DATA.
+IF YOU HAVE ANY PROBLEMS, PLEASE TRY CONVERTING YOUR IMAGE DATA
+TO THE PNM FORMAT, AND USING THIS FORMAT INSTEAD.
+Running on /tmp/tmp.Y9NU8l4gX9/cur/goldenears_gray.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/goldenears_gray.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/goldenears_gray.ras
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/goldenears.jpg
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/goldenears.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/goldenears.ras
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/signed_12.pgx
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/signed_8.pgx
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/small_16x1.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/small_1x1.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/stawamuschief_gray.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/stawamuschief.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/test.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.Y9NU8l4gX9/cur/text
+This is SymCC running with the QSYM backend
+unknown image format
+cannot load image
+Generation 1 end time:2023年 08月 26日 星期六 21:56:34 CST
+Generation 1 run time is: 19 s
+The solving time sum is: 830 s. The solving times is: 2.
+The average of solving time is: 415 s.
+The generation time sum is: 19 s. The generation times is: 1.
+The average of generation time is: 9 s.
+END TIME:2023年 08月 26日 星期六 21:56:53 CST
+The total run time is: 19 s

@@ -1,0 +1,2 @@
+main:ProcessFile
+ProcessFile:show_IPTC

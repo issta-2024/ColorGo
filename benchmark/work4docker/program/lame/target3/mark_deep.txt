@@ -1,0 +1,32 @@
+------------------------------------------
+START TIME:Fri 29 Jul 55678 09:41:54 PM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.O5n2BBn3Cn/cur/0.wav
+This is SymCC running with the QSYM backend
+LAME 3.99.5 64bits (http://lame.sf.net)
+Using polyphase lowpass filter, transition band: 16538 Hz - 17071 Hz
+Encoding /tmp/tmp.O5n2BBn3Cn/cur/0.wav to /tmp/tmp.O5n2BBn3Cn/cur/0.mp3
+Encoding as 44.1 kHz j-stereo MPEG-1 Layer III (11x) 128 kbps qval=7
+[STAT] SMT: { "solving_time": 0, "total_time": 453217 }
+[STAT] SMT: { "solving_time_once": 195233 }
+[INFO] New testcase: /tmp/tmp.O5n2BBn3Cn/symcc_out/000000
+Constraint: Sgt(0x0, 0x900 /_s (Or(Extract(index=0, bits=24, SExt(bits=32, Read(index=17))) | 0x0, ZExt(bits=32, Read(index=16)))))
+terminate at 11121128 because of taken 0 != want 1
+run time is 691 ms
+Generation 0...Dept 1...
+Running on /tmp/tmp.O5n2BBn3Cn/topush/bJ3nDC52
+This is SymCC running with the QSYM backend
+Warning: input file opened multiple times; this is not yet supported
+LAME 3.99.5 64bits (http://lame.sf.net)
+Using polyphase lowpass filter, transition band: 16538 Hz - 17071 Hz
+Encoding /tmp/tmp.O5n2BBn3Cn/topush/bJ3nDC52
+      to /tmp/tmp.O5n2BBn3Cn/topush/bJ3nDC52.mp3
+Encoding as 44.1 kHz j-stereo MPEG-1 Layer III (11x) 128 kbps qval=7
+Error reading input file
+run time is 93 ms
+The solving time sum is: 195233 us. The solving times is: 1.
+The average of solving time is: 195233 us.
+The run time sum is: 784 ms. The run times is: 2.
+The average of run time is: 392 ms.
+END TIME:Fri 29 Jul 55678 10:02:22 PM CST
+The total run time is: 1228 ms

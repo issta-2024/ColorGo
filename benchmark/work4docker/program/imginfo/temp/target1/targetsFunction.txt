@@ -1,0 +1,3 @@
+jas_image_decode:jpc_decode
+jpc_decode:jpc_dec_decode
+jpc_dec_decode:jpc_getms

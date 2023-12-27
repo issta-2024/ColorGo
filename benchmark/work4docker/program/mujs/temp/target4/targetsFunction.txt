@@ -1,0 +1,5 @@
+main:js_newstate
+js_newstate:jsB_init
+jsB_init:jsB_initfunction
+jsB_initfunction:jsB_Function
+jsB_Function:js_newfunction

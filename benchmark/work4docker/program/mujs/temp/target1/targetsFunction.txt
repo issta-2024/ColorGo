@@ -1,0 +1,7 @@
+main:js_newstate
+js_newstate:jsB_init
+jsB_init:jsB_initjson
+jsB_initjson:JSON_stringify
+JSON_stringify:fmtvalue
+fmtvalue:js_call
+js_call:jsR_callcfunction

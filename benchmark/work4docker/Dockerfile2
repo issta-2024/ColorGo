@@ -1,0 +1,139 @@
+# 使用一个基础镜像
+FROM ubuntu:20.04
+
+# clone unibench
+RUN apt-get update && apt-get install -y git && apt-get install -y unzip
+
+RUN apt-get install -y llvm-10 clang-10
+
+RUN apt-get install -y libjpeg-dev
+
+# 设置 DEBIAN_FRONTEND 以避免交互式配置
+ENV DEBIAN_FRONTEND=noninteractive
+
+ENV TZ=UTC
+
+# 安装 tzdata 软件包并指定时区
+# RUN apt-get update && apt-get install -y tzdata && \
+#     ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+#     dpkg-reconfigure --frontend noninteractive tzdata && \
+#     apt-get clean
+
+RUN apt-get install -y make && apt-get install -y cmake
+
+RUN git clone https://github.com/UNIFUZZ/unibench &&\
+    cd unibench && \
+    mkdir mp3gain-1.5.2 && cd mp3gain-1.5.2 && mv ../mp3gain-1.5.2.zip ./ && unzip -q mp3gain-1.5.2.zip && rm mp3gain-1.5.2.zip && cd .. &&\
+    ls *.zip|xargs -i unzip -q '{}' &&\
+    ls *.tar.gz|xargs -i tar xf '{}' &&\
+    rm -r .git/ *.tar.gz *.zip &&\
+    mv SQLite-8a8ffc86 SQLite-3.8.9 && mv binutils_5279478 binutils-5279478 && mv libtiff-Release-v3-9-7 libtiff-3.9.7 &&\
+    ls -alh
+
+# 将脚本文件复制到容器内
+RUN mkdir -p ~/verification/symcc
+RUN mkdir /benchmark
+ADD ./program /benchmark/program
+ADD ./bash /benchmark/bash
+ADD ./seeds /benchmark/seeds
+ADD ./symcc ~/verification/symcc
+
+ADD ./z3 ~/verification/z3
+
+ENV PATH="/usr/lib/llvm-10/bin:$PATH"
+
+
+ENV DSYMCC=~/verification/symcc/build_new \
+    CC=~/verification/symcc/build_new/symcc \
+    CXX=~/verification/symcc/build_new/sym++
+
+# imginfo target1
+
+# 设置target_dir变量
+ENV TMP_DIR=/benchmark/program/imginfo/temp/target1
+
+# 编译
+RUN cd /unibench/jasper-2.0.12 &&\
+    cd src/libjasper/jpc &&\
+    sed -i '316s/$/fopen("target","w");exit(0);/' jpc_cs.c &&\
+    cd /unibench/jasper-2.0.12 &&\
+    cmake -DJAS_ENABLE_SHARED=OFF -DALLOW_IN_SOURCE_BUILD=ON . &&\
+    make -j &&\
+    cp -f src/appl/imginfo /benchmark/program/imginfo/target1/imginfo &&\
+    make clean && rm -r CMakeCache.txt CMakeFiles/ &&\
+    cd src/libjasper/jpc &&\
+    sed -i '316s/fopen("target","w");exit(0);$//' jpc_cs.c
+
+# 执行脚本
+RUN cd /benchmark/program/imginfo/target1 &&\
+    /benchmark/bash/aaa_execution_deep_1.sh  -i /benchmark/seeds/general_evaluation/imginfo ./imginfo -f @@
+
+
+
+# imginfo target2
+
+# 设置target_dir变量
+ENV TMP_DIR=/benchmark/program/imginfo/temp/target2
+
+# 编译
+RUN cd /unibench/jasper-2.0.12 &&\
+    cd src/libjasper/bmp &&\
+    sed -i '373s/^/fopen("target","w");exit(0);/' bmp_dec.c &&\
+    cd /unibench/jasper-2.0.12 &&\
+    cmake -DJAS_ENABLE_SHARED=OFF -DALLOW_IN_SOURCE_BUILD=ON . &&\
+    make -j &&\
+    cp -f src/appl/imginfo /benchmark/program/imginfo/target2/imginfo &&\
+    make clean && rm -r CMakeCache.txt CMakeFiles/ &&\
+    cd src/libjasper/bmp &&\
+    sed -i '373s/fopen("target","w");exit(0);//' bmp_dec.c
+
+# 执行脚本
+RUN cd /benchmark/program/imginfo/target2 &&\
+    /benchmark/bash/aaa_execution_deep_1.sh  -i /benchmark/seeds/general_evaluation/imginfo ./imginfo -f @@
+
+
+
+# imginfo target3
+
+# 设置target_dir变量
+ENV TMP_DIR=/benchmark/program/imginfo/temp/target3
+
+# 编译
+RUN cd /unibench/jasper-2.0.12 &&\
+    cd src/libjasper/jp2 &&\
+    sed -i '275s/$/fopen("target","w");exit(0);/' jp2_cod.c &&\
+    cd /unibench/jasper-2.0.12 &&\
+    cmake -DJAS_ENABLE_SHARED=OFF -DALLOW_IN_SOURCE_BUILD=ON . &&\
+    make -j &&\
+    cp -f src/appl/imginfo /benchmark/program/imginfo/target3/imginfo &&\
+    make clean && rm -r CMakeCache.txt CMakeFiles/ &&\
+    cd src/libjasper/jp2 &&\
+    sed -i '275s/fopen("target","w");exit(0);$//' jp2_cod.c
+
+# 执行脚本
+RUN cd /benchmark/program/imginfo/target3 &&\
+    /benchmark/bash/aaa_execution_deep_1.sh  -i /benchmark/seeds/general_evaluation/imginfo ./imginfo -f @@
+
+# # imginfo target4
+
+# # 设置target_dir变量
+# ENV TMP_DIR=/benchmark/program/imginfo/temp/target4
+
+# # 编译
+# RUN cd /unibench/jasper-2.0.12 &&\
+#     cd src/libjasper/base &&\
+#     sed -i '1026s/$/fopen("target","w");exit(0);/' jas_stream.c &&\
+#     cd /unibench/jasper-2.0.12 &&\
+#     cmake -DJAS_ENABLE_SHARED=OFF -DALLOW_IN_SOURCE_BUILD=ON . &&\
+#     make -j &&\
+#     cp -f src/appl/imginfo /benchmark/program/imginfo/target4/imginfo &&\
+#     make clean &&\
+#     cd src/libjasper/base &&\
+#     sed -i '1026s/fopen("target","w");exit(0);$//' jas_stream.c
+
+# # 执行脚本
+# RUN cd /benchmark/program/imginfo/target4 &&\
+#     /benchmark/bash/aaa_execution_deep_1.sh  -i /benchmark/seeds/general_evaluation/imginfo ./imginfo -f @@
+
+
+

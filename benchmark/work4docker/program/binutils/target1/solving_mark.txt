@@ -1,0 +1,5 @@
+SMT: { "solving_time_once": 628 }
+SMT: { "solving_time_once": 604 }
+SMT: { "solving_time_once": 547 }
+SMT: { "solving_time_once": 1154 }
+

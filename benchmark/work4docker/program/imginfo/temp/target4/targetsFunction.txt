@@ -1,0 +1,3 @@
+main:jas_stream_close
+jas_stream_close:jas_stream_flush
+jas_stream_flush:jas_stream_flushbuf

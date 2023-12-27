@@ -1,0 +1,7 @@
+main:c_main
+c_main:lame_main
+lame_main:lame_encoder
+lame_encoder:lame_encoder_loop
+lame_encoder_loop:write_xing_frame
+write_xing_frame:lame_get_lametag_frame
+lame_get_lametag_frame:PutLameVBR

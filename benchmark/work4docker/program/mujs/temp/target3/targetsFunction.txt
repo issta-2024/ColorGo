@@ -1,0 +1,7 @@
+main:c_main
+c_main:lame_main
+lame_main:init_files
+init_files:init_infile
+init_infile:open_wave_file
+open_wave_file:parse_file_header
+parse_file_header:parse_wave_header

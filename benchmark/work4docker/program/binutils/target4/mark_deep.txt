@@ -1,0 +1,18 @@
+------------------------------------------
+START TIME:Fri 05 Jan 55917 04:54:08 AM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.2bpXtYGY9a/cur/4487.txt
+hell111111111111111111111
+run time is 16 ms
+Generation 1...Dept 0...
+Running on /tmp/tmp.2bpXtYGY9a/cur/4488.txt
+.::he1-(void)
+run time is 16 ms
+Generation 2...Dept 0...
+Running on /tmp/tmp.2bpXtYGY9a/cur/4490.txt
+he100000000000000000000000
+run time is 16 ms
+Generation 3...Dept 0...
+Running on /tmp/tmp.2bpXtYGY9a/cur/4492.txt
+0__GG50000000000_
+run time is 16 ms

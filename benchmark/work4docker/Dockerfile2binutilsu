@@ -1,0 +1,120 @@
+# 使用一个基础镜像
+FROM ubuntu:20.04
+
+# clone unibench
+RUN apt-get update && apt-get install -y git && apt-get install -y unzip
+
+RUN apt-get install -y llvm-10 clang-10
+
+RUN apt-get install -y libjpeg-dev
+
+# 设置 DEBIAN_FRONTEND 以避免交互式配置
+ENV DEBIAN_FRONTEND=noninteractive
+
+ENV TZ=UTC
+
+RUN apt-get install -y build-essential
+
+
+# 安装 tzdata 软件包并指定时区
+# RUN apt-get update && apt-get install -y tzdata && \
+#     ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+#     dpkg-reconfigure --frontend noninteractive tzdata && \
+#     apt-get clean
+
+RUN apt-get install -y make && apt-get install -y cmake
+
+RUN git clone https://github.com/UNIFUZZ/unibench &&\
+    cd unibench && \
+    mkdir mp3gain-1.5.2 && cd mp3gain-1.5.2 && mv ../mp3gain-1.5.2.zip ./ && unzip -q mp3gain-1.5.2.zip && rm mp3gain-1.5.2.zip && cd .. &&\
+    ls *.zip|xargs -i unzip -q '{}' &&\
+    ls *.tar.gz|xargs -i tar xf '{}' &&\
+    rm -r .git/ *.tar.gz *.zip &&\
+    mv SQLite-8a8ffc86 SQLite-3.8.9 && mv binutils_5279478 binutils-5279478 && mv libtiff-Release-v3-9-7 libtiff-3.9.7 &&\
+    ls -alh
+
+# 将脚本文件复制到容器内
+RUN mkdir -p ~/verification/symcc
+RUN mkdir /benchmark
+ADD ./program /benchmark/program
+ADD ./bash /benchmark/bash
+ADD ./seeds /benchmark/seeds
+
+
+
+ADD ./z3 ~/verification/z3
+
+ADD ./symcc ~/verification/symcc
+
+ENV PATH="/usr/lib/llvm-10/bin:$PATH"
+
+
+ENV DSYMCC=~/verification/symcc/build_new \
+    CC=~/verification/symcc/build_new/symcc \
+    CXX=~/verification/symcc/build_new/sym++
+
+# binutils cve-4487
+
+# 设置target_dir变量
+ENV TMP_DIR=/benchmark/program/binutils/temp/cve-4487
+
+RUN mkdir /tmp/output
+# 编译
+RUN cd /unibench/binutils-2.28 &&\
+    cd libiberty &&\
+    # sed -i '3068s/^/fopen("target","w");exit(0);/' cplus-dem.c &&\
+    cd /unibench/binutils-2.28 &&\
+    ./configure --disable-shared --host=x86_64-linux-gnu&&\
+    make -j &&\
+    cp -f binutils/cxxfilt /benchmark/program/binutils/target1/cxxfilt &&\
+    make clean &&\
+    cd libiberty &&\
+    # sed -i '3068s/fopen("target","w");exit(0);//' cplus-dem.c
+
+# 执行脚本
+RUN cd /benchmark/program/binutils/target1 &&\
+    ../../../bash/aaa_execution_deep_2.sh -i /benchmark/seeds/aflgo/afl-2.57b/testcases/others/text ./cxxfilt @@
+
+
+
+# binutils cve-4488
+
+ENV TMP_DIR=/benchmark/program/binutils/temp/cve-4488
+
+# 编译
+RUN cd /unibench/binutils-2.28 &&\
+    cd libiberty &&\
+    # sed -i '4464s/^/fopen("target","w");exit(0);/' cplus-dem.c &&\
+    cd /unibench/binutils-2.28 &&\
+    ./configure --disable-shared --host=x86_64-linux-gnu&&\
+    make -j &&\
+    cp -f binutils/cxxfilt /benchmark/program/binutils/target2/cxxfilt &&\
+    make clean &&\
+    cd libiberty &&\
+    # sed -i '4464s/fopen("target","w");exit(0);//' cplus-dem.c
+
+# 执行脚本
+RUN cd /benchmark/program/binutils/target2 &&\
+    ../../../bash/aaa_execution_deep_2.sh -i /benchmark/seeds/aflgo/afl-2.57b/testcases/others/text ./cxxfilt @@
+
+
+
+# binutils cve-4490
+
+ENV TMP_DIR=/benchmark/program/binutils/temp/cve-4490
+
+# 编译
+RUN cd /unibench/binutils-2.28 &&\
+    cd libiberty &&\
+    # sed -i '1638s/^/fopen("target","w");exit(0);/' cp-demangle.c &&\
+    cd /unibench/binutils-2.28 &&\
+    ./configure --disable-shared --host=x86_64-linux-gnu&&\
+    make -j &&\
+    cp -f binutils/cxxfilt /benchmark/program/binutils/target3/cxxfilt &&\
+    make clean &&\
+    cd libiberty &&\
+    # sed -i '1638s/fopen("target","w");exit(0);//' cp-demangle.c
+
+# 执行脚本
+RUN cd /benchmark/program/binutils/target3 &&\
+    ../../../bash/aaa_execution_deep_2.sh -i /benchmark/seeds/aflgo/afl-2.57b/testcases/others/text ./cxxfilt @@

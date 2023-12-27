@@ -1,0 +1,11 @@
+------------------------------------------
+START TIME:55621年 01月 19日 星期二 02:37:03 CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.DRqA5zZQkV/cur/115.jpg
+This is SymCC running with the QSYM backend
+run time is 1689 ms
+The solving time sum is:  us. The solving times is: 0.
+The run time sum is: 1689 ms. The run times is: 1.
+The average of run time is: 1689 ms.
+END TIME:55621年 01月 19日 星期二 03:05:17 CST
+The total run time is: 1694 ms

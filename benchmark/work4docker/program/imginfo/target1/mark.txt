@@ -1,0 +1,149 @@
+------------------------------------------
+START TIME:2023年 09月 01日 星期五 21:55:14 CST
+Generation 0...
+Generation 0 start time:2023年 09月 01日 星期五 21:55:15 CST
+Running on /tmp/tmp.AHyE5RxuI4/cur/115.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 41431 }
+[STAT] SMT: { "solving_time_once": 406 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/161.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 40919 }
+[STAT] SMT: { "solving_time_once": 387 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/163.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 41979 }
+[STAT] SMT: { "solving_time_once": 454 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/234.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 40627 }
+[STAT] SMT: { "solving_time_once": 392 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/278.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 42934 }
+[STAT] SMT: { "solving_time_once": 437 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/281.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 36559 }
+[STAT] SMT: { "solving_time_once": 449 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/58.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 35063 }
+[STAT] SMT: { "solving_time_once": 482 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/72.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 42004 }
+[STAT] SMT: { "solving_time_once": 466 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/78.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 38380 }
+[STAT] SMT: { "solving_time_once": 469 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/86.png
+This is SymCC running with the QSYM backend
+unknown image format
+Running on /tmp/tmp.AHyE5RxuI4/cur/96.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 40879 }
+[STAT] SMT: { "solving_time_once": 490 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/example.mif
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/example.mif0
+This is SymCC running with the QSYM backend
+cannot open component file goldenears.pgm
+Running on /tmp/tmp.AHyE5RxuI4/cur/feep2.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/feep.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/goldenears.bmp
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/goldenears_gray.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 29487 }
+[STAT] SMT: { "solving_time_once": 422 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/goldenears_gray.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/goldenears_gray.ras
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/goldenears.jpg
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 29881 }
+[STAT] SMT: { "solving_time_once": 457 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0x4F, ZExt(bits=32, Read(index=1)))
+terminate at 35797800 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/goldenears.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/goldenears.ras
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/signed_12.pgx
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 21516 }
+[STAT] SMT: { "solving_time_once": 558 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0xFF, ZExt(bits=32, Read(index=0)))
+terminate at 35796920 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/signed_8.pgx
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 21141 }
+[STAT] SMT: { "solving_time_once": 588 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0xFF, ZExt(bits=32, Read(index=0)))
+terminate at 35796920 because of taken 0 != want 1
+Running on /tmp/tmp.AHyE5RxuI4/cur/small_16x1.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/small_1x1.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/stawamuschief_gray.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/stawamuschief.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/test.pnm
+This is SymCC running with the QSYM backend
+Running on /tmp/tmp.AHyE5RxuI4/cur/text
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 15157 }
+[STAT] SMT: { "solving_time_once": 435 }
+[INFO] New testcase: /tmp/tmp.AHyE5RxuI4/symcc_out/000000
+Constraint: Equal(0xFF, ZExt(bits=32, Read(index=0)))
+terminate at 35796920 because of taken 0 != want 1
+Generation 1 end time:2023年 09月 01日 星期五 21:55:15 CST
+Generation 1 run time is: 2 s
+The solving time sum is: 6892 s. The solving times is: 15.
+The average of solving time is: 459 s.
+The generation time sum is: 2 s. The generation times is: 1.
+The average of generation time is: 1 s.
+END TIME:2023年 09月 01日 星期五 21:55:17 CST
+The total run time is: 3 s

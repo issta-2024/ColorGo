@@ -1,0 +1,74 @@
+------------------------------------------
+START TIME:Wed 11 Oct 55809 04:19:54 PM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.r5D3KyVEgK/cur/hello_world.txt
+This is SymCC running with the QSYM backend
+taken=1, want=1
+LNot(Equal(0x0, SExt(bits=32, Read(index=0))))
+taken=0, want=1
+Equal(0x5F, SExt(bits=32, Read(index=0)))
+[STAT] SMT: { "solving_time": 0, "total_time": 12095 }
+[STAT] SMT: { "solving_time_once": 628 }
+[INFO] New testcase: /tmp/tmp.r5D3KyVEgK/symcc_out/000000
+run time is 39 ms
+Generation 0...Dept 1...
+Running on /tmp/tmp.r5D3KyVEgK/topush/yiNCtiAE
+This is SymCC running with the QSYM backend
+taken=1, want=1
+LNot(Equal(0x0, SExt(bits=32, Read(index=0))))
+taken=1, want=1
+Equal(0x5F, SExt(bits=32, Read(index=0)))
+taken=0, want=1
+Equal(0x76, SExt(bits=32, Read(index=1)))
+[STAT] SMT: { "solving_time": 0, "total_time": 11763 }
+[STAT] SMT: { "solving_time_once": 604 }
+[INFO] New testcase: /tmp/tmp.r5D3KyVEgK/symcc_out/000000
+run time is 39 ms
+Generation 0...Dept 2...
+Running on /tmp/tmp.r5D3KyVEgK/topush/IWrTHYJE
+This is SymCC running with the QSYM backend
+taken=1, want=1
+LNot(Equal(0x0, SExt(bits=32, Read(index=0))))
+taken=1, want=1
+Equal(0x5F, SExt(bits=32, Read(index=0)))
+taken=1, want=1
+Equal(0x76, SExt(bits=32, Read(index=1)))
+taken=0, want=1
+Equal(0x74, SExt(bits=32, Read(index=2)))
+[STAT] SMT: { "solving_time": 0, "total_time": 11333 }
+[STAT] SMT: { "solving_time_once": 547 }
+[INFO] New testcase: /tmp/tmp.r5D3KyVEgK/symcc_out/000000
+run time is 38 ms
+Generation 0...Dept 3...
+Running on /tmp/tmp.r5D3KyVEgK/topush/3QfmkXKr
+This is SymCC running with the QSYM backend
+taken=1, want=1
+LNot(Equal(0x0, SExt(bits=32, Read(index=0))))
+taken=1, want=1
+Equal(0x5F, SExt(bits=32, Read(index=0)))
+taken=1, want=1
+Equal(0x76, SExt(bits=32, Read(index=1)))
+taken=1, want=1
+Equal(0x74, SExt(bits=32, Read(index=2)))
+taken=0, want=1
+LNot(Equal(0x0, ZExt(bits=64, Ite(LOr(LOr(Equal(0x24, Read(index=3)), Equal(0x2E, Read(index=3))), Equal(0x24, Read(index=3))), 0x1, 0x0))))
+[STAT] SMT: { "solving_time": 0, "total_time": 11447 }
+[STAT] SMT: { "solving_time_once": 1154 }
+[INFO] New testcase: /tmp/tmp.r5D3KyVEgK/symcc_out/000000
+run time is 38 ms
+Generation 0...Dept 4...
+Running on /tmp/tmp.r5D3KyVEgK/topush/FwmBCNmF
+This is SymCC running with the QSYM backend
+taken=1, want=1
+LNot(Equal(0x0, SExt(bits=32, Read(index=0))))
+taken=1, want=1
+Equal(0x5F, SExt(bits=32, Read(index=0)))
+taken=1, want=1
+Equal(0x76, SExt(bits=32, Read(index=1)))
+taken=1, want=1
+Equal(0x74, SExt(bits=32, Read(index=2)))
+taken=1, want=1
+LNot(Equal(0x0, ZExt(bits=64, Ite(Equal(0x24, Read(index=3)), 0x1, 0x0))))
+taken=1, want=1
+LNot(Equal(0x0, SExt(bits=32, Read(index=4))))
+run time is 91565 ms

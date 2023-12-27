@@ -1,0 +1,10 @@
+main:c_main
+c_main:lame_main
+lame_main:lame_encoder
+lame_encoder:lame_encoder_loop
+lame_encoder_loop:lame_encode_buffer_int
+lame_encode_buffer_int:lame_encode_buffer_template
+lame_encode_buffer_template:lame_encode_buffer_sample_t
+lame_encode_buffer_sample_t:lame_encode_mp3_frame
+lame_encode_mp3_frame:format_bitstream
+format_bitstream:encodeSideInfo2

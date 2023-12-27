@@ -1,0 +1,11 @@
+------------------------------------------
+START TIME:Sat 04 Jan 55648 11:15:01 AM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.VZoVe83NnB/cur/apply.js
+This is SymCC running with the QSYM backend
+run time is 88 ms
+The solving time sum is:  us. The solving times is: 0.
+The run time sum is: 88 ms. The run times is: 1.
+The average of run time is: 88 ms.
+END TIME:Sat 04 Jan 55648 11:20:48 AM CST
+The total run time is: 347 ms

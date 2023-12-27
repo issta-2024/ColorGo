@@ -1,0 +1,152 @@
+------------------------------------------
+START TIME:Tue 19 Sep 55645 03:39:07 PM CST
+Generation 0...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/115.jpg
+This is SymCC running with the QSYM backend
+run time is 66 ms
+Generation 1...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/161.jpg
+This is SymCC running with the QSYM backend
+run time is 72 ms
+Generation 2...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/163.jpg
+This is SymCC running with the QSYM backend
+run time is 73 ms
+Generation 3...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/234.jpg
+This is SymCC running with the QSYM backend
+run time is 72 ms
+Generation 4...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/278.jpg
+This is SymCC running with the QSYM backend
+run time is 68 ms
+Generation 5...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/281.jpg
+This is SymCC running with the QSYM backend
+run time is 73 ms
+Generation 6...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/58.jpg
+This is SymCC running with the QSYM backend
+run time is 72 ms
+Generation 7...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/72.jpg
+This is SymCC running with the QSYM backend
+run time is 71 ms
+Generation 8...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/86.png
+This is SymCC running with the QSYM backend
+unknown image format
+run time is 29 ms
+Generation 9...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/96.jpg
+This is SymCC running with the QSYM backend
+run time is 71 ms
+Generation 10...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/example.mif
+This is SymCC running with the QSYM backend
+run time is 2724 ms
+Generation 11...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/example.mif0
+This is SymCC running with the QSYM backend
+cannot open component file goldenears.pgm
+run time is 88 ms
+Generation 12...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/feep2.pnm
+This is SymCC running with the QSYM backend
+run time is 299 ms
+Generation 13...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/feep.pnm
+This is SymCC running with the QSYM backend
+run time is 308 ms
+Generation 14...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/goldenears.bmp
+This is SymCC running with the QSYM backend
+THE BMP FORMAT IS NOT FULLY SUPPORTED!
+THAT IS, THE JASPER SOFTWARE CANNOT DECODE ALL TYPES OF BMP DATA.
+IF YOU HAVE ANY PROBLEMS, PLEASE TRY CONVERTING YOUR IMAGE DATA
+TO THE PNM FORMAT, AND USING THIS FORMAT INSTEAD.
+run time is 51210 ms
+Generation 15...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/goldenears_gray.jpg
+This is SymCC running with the QSYM backend
+run time is 56 ms
+Generation 16...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/goldenears_gray.pnm
+This is SymCC running with the QSYM backend
+run time is 15704 ms
+Generation 17...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/goldenears_gray.ras
+This is SymCC running with the QSYM backend
+warning: palettized images not fully supported
+run time is 90085 ms
+Generation 18...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/goldenears.jpg
+This is SymCC running with the QSYM backend
+run time is 56 ms
+Generation 19...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/goldenears.pnm
+This is SymCC running with the QSYM backend
+run time is 47625 ms
+Generation 20...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/goldenears.ras
+This is SymCC running with the QSYM backend
+run time is 90145 ms
+Generation 21...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/signed_12.pgx
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 19692 }
+[STAT] SMT: { "solving_time_once": 581 }
+[INFO] New testcase: /tmp/tmp.hcvLV9Lhl0/symcc_out/000000
+Constraint: Equal(0xFF, ZExt(bits=32, Read(index=0)))
+terminate at 9499848 because of taken 0 != want 1
+run time is 47 ms
+Generation 21...Dept 1...
+Running on /tmp/tmp.hcvLV9Lhl0/topush/sAyKql9b
+This is SymCC running with the QSYM backend
+run time is 46 ms
+Generation 22...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/signed_8.pgx
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 20761 }
+[STAT] SMT: { "solving_time_once": 531 }
+[INFO] New testcase: /tmp/tmp.hcvLV9Lhl0/symcc_out/000000
+Constraint: Equal(0xFF, ZExt(bits=32, Read(index=0)))
+terminate at 9499848 because of taken 0 != want 1
+run time is 46 ms
+Generation 22...Dept 1...
+Running on /tmp/tmp.hcvLV9Lhl0/topush/E0slJcRf
+This is SymCC running with the QSYM backend
+run time is 44 ms
+Generation 23...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/small_16x1.pnm
+This is SymCC running with the QSYM backend
+run time is 97 ms
+Generation 24...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/small_1x1.pnm
+This is SymCC running with the QSYM backend
+run time is 68 ms
+Generation 25...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/stawamuschief_gray.pnm
+This is SymCC running with the QSYM backend
+run time is 38993 ms
+Generation 26...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/stawamuschief.pnm
+This is SymCC running with the QSYM backend
+run time is 90362 ms
+Generation 27...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/test.pnm
+This is SymCC running with the QSYM backend
+run time is 304 ms
+Generation 28...Dept 0...
+Running on /tmp/tmp.hcvLV9Lhl0/cur/text
+This is SymCC running with the QSYM backend
+[STAT] SMT: { "solving_time": 0, "total_time": 21104 }
+[STAT] SMT: { "solving_time_once": 567 }
+[INFO] New testcase: /tmp/tmp.hcvLV9Lhl0/symcc_out/000000
+Constraint: Equal(0xFF, ZExt(bits=32, Read(index=0)))
+terminate at 9499848 because of taken 0 != want 1
+run time is 49 ms
+Generation 28...Dept 1...
+Running on /tmp/tmp.hcvLV9Lhl0/topush/6EpaudoS
+This is SymCC running with the QSYM backend
+run time is 45 ms
